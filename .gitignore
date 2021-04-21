@@ -1,0 +1,4 @@
+settings.py
+cards/static/cards/lor_data/*
+out.txt
+match_ids.json

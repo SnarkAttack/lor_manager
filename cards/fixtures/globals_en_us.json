@@ -1,0 +1,1023 @@
+[
+    {
+        "model": "cards.vocabterm",
+        "pk": 1,
+        "fields": {
+            "name": "Allegiance",
+            "name_ref": "Allegiance",
+            "description": "When you summon this, it gets its allegiance bonus if the top card of your deck matches its region.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 2,
+        "fields": {
+            "name": "Phase",
+            "name_ref": "Phase",
+            "description": "Pick the next Moon Weapon for Aphelios.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 3,
+        "fields": {
+            "name": "Reforge",
+            "name_ref": "Reforge",
+            "description": "Create a random Blade Fragment still needed to restore the blade. Once you\u2019ve cast all 3, create the Blade of the Exile.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 4,
+        "fields": {
+            "name": "Restore the Sun Disc",
+            "name_ref": "SunDiscRestore",
+            "description": "Immediately draw 1 of each Ascended ally. For the rest of the game, level 2 Ascended allies are level 3.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 5,
+        "fields": {
+            "name": "Predict",
+            "name_ref": "Forecast",
+            "description": "Pick a card from among 3 in your deck. Shuffle the deck and put that card on top.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 6,
+        "fields": {
+            "name": "Support",
+            "name_ref": "Support",
+            "description": "Attacking with a support unit will buff the unit to its right.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 7,
+        "fields": {
+            "name": "Strongest",
+            "name_ref": "Strongest",
+            "description": "Highest Power, with ties broken by highest Health then highest Cost.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 8,
+        "fields": {
+            "name": "Toss",
+            "name_ref": "Toss",
+            "description": "Obliterate X non-champion cards from the bottom of your deck.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 9,
+        "fields": {
+            "name": "Behold",
+            "name_ref": "Behold",
+            "description": "You behold something if you have it in play or hand.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 10,
+        "fields": {
+            "name": "Round End",
+            "name_ref": "RoundEnd",
+            "description": "Get this effect when the round ends.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 11,
+        "fields": {
+            "name": "Attack",
+            "name_ref": "Attack",
+            "description": "Get this effect when this unit attacks.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 12,
+        "fields": {
+            "name": "Reputation",
+            "name_ref": "Aftermath",
+            "description": "Activates if allies have struck for 5+ damage at least 4 times this game.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 13,
+        "fields": {
+            "name": "Buffed",
+            "name_ref": "Buffed",
+            "description": "A unit is buffed when its Power or Health is increased or it gains a new keyword.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 14,
+        "fields": {
+            "name": "Strike",
+            "name_ref": "Strike",
+            "description": "Get this effect when a unit attempts to deal damage using its Power, either at the end of battle or with spells. Units with 0 Power can't strike.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 15,
+        "fields": {
+            "name": "Nexus Strike",
+            "name_ref": "NexusStrike",
+            "description": "Effect when unit Strikes the enemy Nexus.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 16,
+        "fields": {
+            "name": "Round Start",
+            "name_ref": "RoundStart",
+            "description": "Get this effect when the round starts.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 17,
+        "fields": {
+            "name": "Play",
+            "name_ref": "Play",
+            "description": "Get this effect when you play this unit from hand.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 18,
+        "fields": {
+            "name": "Everywhere",
+            "name_ref": "Everywhere",
+            "description": "In play, in hand, in deck, in discard, and even if created/summoned later.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 19,
+        "fields": {
+            "name": "Advance",
+            "name_ref": "Advance",
+            "description": "Makes a Countdown landmark count down that many times",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 20,
+        "fields": {
+            "name": "Countdown",
+            "name_ref": "Buried",
+            "description": "Round Start: I count down 1. At 0, destroy me and activate the Countdown effect.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 21,
+        "fields": {
+            "name": "Rally",
+            "name_ref": "Rally",
+            "description": "If you don't have one, gain the attack token. You can attack this round.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 22,
+        "fields": {
+            "name": "Slay",
+            "name_ref": "Slay",
+            "description": "When you kill a unit via damage, kill effect, or striking it with an ally. (Self-killing, like from Ephemeral, doesn't count.)",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 23,
+        "fields": {
+            "name": "Silence",
+            "name_ref": "Silence",
+            "description": "Remove all keywords, abilities, and ongoing effects. Doesn't affect damage or subtype.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.vocabterm",
+        "pk": 24,
+        "fields": {
+            "name": "Plunder",
+            "name_ref": "Plunder",
+            "description": "A card triggers its plunder ability when played if you damaged the enemy Nexus this round.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 1,
+        "fields": {
+            "name": "Obliterate",
+            "name_ref": "Obliterate",
+            "description": "Completely removed from the game. Doesn't cause Last Breath and can't be revived.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 2,
+        "fields": {
+            "name": "Targon",
+            "name_ref": "MtTargon",
+            "description": " ",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 3,
+        "fields": {
+            "name": "Skill",
+            "name_ref": "Skill",
+            "description": "A unit's spell-like effect that allows enemy reactions.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 4,
+        "fields": {
+            "name": "Double Attack",
+            "name_ref": "DoubleStrike",
+            "description": "While attacking, it strikes both before AND at the same time as its blocker.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 5,
+        "fields": {
+            "name": "Daybreak",
+            "name_ref": "Daybreak",
+            "description": "Bonus if this is the FIRST card you play in a round.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 6,
+        "fields": {
+            "name": "Weakest",
+            "name_ref": "Weakest",
+            "description": "Lowest Power, with ties broken by lowest Health then lowest Cost",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 7,
+        "fields": {
+            "name": "Vulnerable",
+            "name_ref": "Vulnerable",
+            "description": "The enemy can challenge this unit, forcing it to block.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 8,
+        "fields": {
+            "name": "Attack",
+            "name_ref": "AttackSkillMark",
+            "description": "Get this effect when this unit attacks.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 9,
+        "fields": {
+            "name": "Elusive",
+            "name_ref": "Elusive",
+            "description": "Can only be blocked by an Elusive unit.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 10,
+        "fields": {
+            "name": "Drain",
+            "name_ref": "Drain",
+            "description": "Heal your Nexus for the amount of damage dealt",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 11,
+        "fields": {
+            "name": "Stun",
+            "name_ref": "Stun",
+            "description": "Remove a unit from combat. It can't attack or block for the rest of the round.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 12,
+        "fields": {
+            "name": "Trap",
+            "name_ref": "Autoplay",
+            "description": "Attaches to another card, trapping it. When the trapped card is drawn, perform the effect.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 13,
+        "fields": {
+            "name": "Piltover & Zaun",
+            "name_ref": "PiltoverZaun",
+            "description": " ",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 14,
+        "fields": {
+            "name": "Demacia",
+            "name_ref": "Demacia",
+            "description": " ",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 15,
+        "fields": {
+            "name": "Can block Elusives",
+            "name_ref": "BlockElusive",
+            "description": "Missing Translation",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 16,
+        "fields": {
+            "name": "Shadow Isles",
+            "name_ref": "ShadowIsles",
+            "description": " ",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 17,
+        "fields": {
+            "name": "Fury",
+            "name_ref": "Fury",
+            "description": "When I kill a unit, grant me +1|+1.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 18,
+        "fields": {
+            "name": "Overwhelm",
+            "name_ref": "SpellOverwhelm",
+            "description": "Inflicts damage beyond what would kill the target(s) to the enemy Nexus.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 19,
+        "fields": {
+            "name": "Attune",
+            "name_ref": "Attune",
+            "description": "When I'm summoned, refill 1 spell mana.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 20,
+        "fields": {
+            "name": "Landmark",
+            "name_ref": "LandmarkVisualOnly",
+            "description": "Landmarks take up a space on the board. They can't attack, block, or take damage.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 21,
+        "fields": {
+            "name": "Barrier",
+            "name_ref": "Barrier",
+            "description": "Negates the next damage the unit would take. Lasts one round.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 22,
+        "fields": {
+            "name": "Immobile",
+            "name_ref": "Immobile",
+            "description": "Can't attack or block.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 23,
+        "fields": {
+            "name": "Capture",
+            "name_ref": "Capture",
+            "description": "A Captured card is removed from the game. It returns when the Capturing unit leaves play.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 24,
+        "fields": {
+            "name": "Frostbite",
+            "name_ref": "Frostbite",
+            "description": "Set a unit's Power to 0 this round. It can be changed after.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 25,
+        "fields": {
+            "name": "Burst",
+            "name_ref": "Burst",
+            "description": "Burst spells are cast instantaneously. The enemy can't act before it finishes.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 26,
+        "fields": {
+            "name": "Fleeting",
+            "name_ref": "Fleeting",
+            "description": "Fleeting cards discard from hand when the round ends.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 27,
+        "fields": {
+            "name": "Fast",
+            "name_ref": "Fast",
+            "description": "Fast spells can be played at any time, but allow the opponent to respond.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 28,
+        "fields": {
+            "name": "Overwhelm",
+            "name_ref": "Overwhelm",
+            "description": "Excess damage I deal to my blocker is dealt to the enemy Nexus.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 29,
+        "fields": {
+            "name": "Play",
+            "name_ref": "PlaySkillMark",
+            "description": "Get this effect when you play this unit from hand.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 30,
+        "fields": {
+            "name": "Quick Attack",
+            "name_ref": "QuickStrike",
+            "description": "While attacking, strikes before its blocker.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 31,
+        "fields": {
+            "name": "Tough",
+            "name_ref": "Tough",
+            "description": "Takes 1 less damage from all sources.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 32,
+        "fields": {
+            "name": "Recall",
+            "name_ref": "Recall",
+            "description": "Return a unit to hand and remove all effects applied to it.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 33,
+        "fields": {
+            "name": "Ionia",
+            "name_ref": "Ionia",
+            "description": " ",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 34,
+        "fields": {
+            "name": "Regeneration",
+            "name_ref": "Regeneration",
+            "description": "Heals fully at the end of each round.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 35,
+        "fields": {
+            "name": "Focus",
+            "name_ref": "Focus",
+            "description": "Cannot be cast in combat or while other spells are pending. Cast instantaneously.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 36,
+        "fields": {
+            "name": "Silenced",
+            "name_ref": "Silenced",
+            "description": "Removes all text and keywords from a unit.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 37,
+        "fields": {
+            "name": "SpellShield",
+            "name_ref": "SpellShield",
+            "description": "Negates the next enemy spell or skill that would affect me.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 38,
+        "fields": {
+            "name": "Lifesteal",
+            "name_ref": "Lifesteal",
+            "description": "Damage this unit deals heals its Nexus that amount.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 39,
+        "fields": {
+            "name": "Nightfall",
+            "name_ref": "Nightfall",
+            "description": "Bonus if this is NOT the first card you play in a round.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 40,
+        "fields": {
+            "name": "Shurima",
+            "name_ref": "Shurima",
+            "description": " ",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 41,
+        "fields": {
+            "name": "Enlightened",
+            "name_ref": "Enlightened",
+            "description": "You're Enlightened when you have 10 max mana.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 42,
+        "fields": {
+            "name": "Level Up",
+            "name_ref": "LevelUp",
+            "description": "A champion levels up once this condition is met, even in hand or deck.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 43,
+        "fields": {
+            "name": "Slow",
+            "name_ref": "Slow",
+            "description": "Slow spells can be cast outside of combat and other casting. The enemy can respond.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 44,
+        "fields": {
+            "name": "Noxus",
+            "name_ref": "Noxus",
+            "description": " ",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 45,
+        "fields": {
+            "name": "Invoke",
+            "name_ref": "Invoke",
+            "description": "Pick a Celestial card from among 3 to create in hand.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 46,
+        "fields": {
+            "name": "Augment",
+            "name_ref": "Augment",
+            "description": "When you play a created card, grant me +1|+0.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 47,
+        "fields": {
+            "name": "Scout",
+            "name_ref": "Scout",
+            "description": "The first time only Scout units attack each round, ready your attack.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 48,
+        "fields": {
+            "name": "Ephemeral",
+            "name_ref": "Ephemeral",
+            "description": "This unit dies when it strikes or when the round ends.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 49,
+        "fields": {
+            "name": "Freljord",
+            "name_ref": "Freljord",
+            "description": " ",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 50,
+        "fields": {
+            "name": "Last Breath",
+            "name_ref": "LastBreath",
+            "description": "These abilities take effect when the unit dies.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 51,
+        "fields": {
+            "name": "Bilgewater",
+            "name_ref": "Bilgewater",
+            "description": " ",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 52,
+        "fields": {
+            "name": "Nab",
+            "name_ref": "Nab",
+            "description": "Draw a non-champion card from the bottom of the enemy deck",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 53,
+        "fields": {
+            "name": "Challenger",
+            "name_ref": "Challenger",
+            "description": "Can choose which enemy unit blocks.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 54,
+        "fields": {
+            "name": "Imbue",
+            "name_ref": "Imbue",
+            "description": "These abilities trigger when you resolve a spell.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 55,
+        "fields": {
+            "name": "Fearsome",
+            "name_ref": "Fearsome",
+            "description": "Can only be blocked by enemies with 3 or more Power.",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 56,
+        "fields": {
+            "name": "Can't Block",
+            "name_ref": "CantBlock",
+            "description": " ",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.keyword",
+        "pk": 57,
+        "fields": {
+            "name": "Deep",
+            "name_ref": "Deep",
+            "description": "",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.region",
+        "pk": 1,
+        "fields": {
+            "name": "Targon",
+            "name_ref": "Targon",
+            "abbreviation": "MT",
+            "file_name": "icon-targon.png",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.region",
+        "pk": 2,
+        "fields": {
+            "name": "Noxus",
+            "name_ref": "Noxus",
+            "abbreviation": "NX",
+            "file_name": "icon-noxus.png",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.region",
+        "pk": 3,
+        "fields": {
+            "name": "Demacia",
+            "name_ref": "Demacia",
+            "abbreviation": "DE",
+            "file_name": "icon-demacia.png",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.region",
+        "pk": 4,
+        "fields": {
+            "name": "Freljord",
+            "name_ref": "Freljord",
+            "abbreviation": "FR",
+            "file_name": "icon-freljord.png",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.region",
+        "pk": 5,
+        "fields": {
+            "name": "Shadow Isles",
+            "name_ref": "ShadowIsles",
+            "abbreviation": "SI",
+            "file_name": "icon-shadowisles.png",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.region",
+        "pk": 6,
+        "fields": {
+            "name": "Ionia",
+            "name_ref": "Ionia",
+            "abbreviation": "IO",
+            "file_name": "icon-ionia.png",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.region",
+        "pk": 7,
+        "fields": {
+            "name": "Shurima",
+            "name_ref": "Shurima",
+            "abbreviation": "SH",
+            "file_name": "icon-shurima.png",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.region",
+        "pk": 8,
+        "fields": {
+            "name": "Bilgewater",
+            "name_ref": "Bilgewater",
+            "abbreviation": "BW",
+            "file_name": "icon-bilgewater.png",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.region",
+        "pk": 9,
+        "fields": {
+            "name": "Piltover & Zaun",
+            "name_ref": "PiltoverZaun",
+            "abbreviation": "PZ",
+            "file_name": "icon-piltoverzaun.png",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.spellspeed",
+        "pk": 1,
+        "fields": {
+            "name": "Slow",
+            "name_ref": "Slow",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.spellspeed",
+        "pk": 2,
+        "fields": {
+            "name": "Burst",
+            "name_ref": "Burst",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.spellspeed",
+        "pk": 3,
+        "fields": {
+            "name": "Fast",
+            "name_ref": "Fast",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.rarity",
+        "pk": 1,
+        "fields": {
+            "name": "COMMON",
+            "name_ref": "Common",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.rarity",
+        "pk": 2,
+        "fields": {
+            "name": "RARE",
+            "name_ref": "Rare",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.rarity",
+        "pk": 3,
+        "fields": {
+            "name": "EPIC",
+            "name_ref": "Epic",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.rarity",
+        "pk": 4,
+        "fields": {
+            "name": "Champion",
+            "name_ref": "Champion",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.rarity",
+        "pk": 5,
+        "fields": {
+            "name": "None",
+            "name_ref": "None",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.set",
+        "pk": 3,
+        "fields": {
+            "name": "Call of the Mountain",
+            "name_ref": "Set3",
+            "file_name": "set3.png",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.set",
+        "pk": 1,
+        "fields": {
+            "name": "Foundations",
+            "name_ref": "Set1",
+            "file_name": "set1.png",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.set",
+        "pk": 2,
+        "fields": {
+            "name": "Rising Tides",
+            "name_ref": "Set2",
+            "file_name": "set2.png",
+            "language": "en_us"
+        }
+    },
+    {
+        "model": "cards.set",
+        "pk": 4,
+        "fields": {
+            "name": "Empires of the Ascended",
+            "name_ref": "Set4",
+            "file_name": "set4.png",
+            "language": "en_us"
+        }
+    }
+]

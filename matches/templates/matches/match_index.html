@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block stylesheet %}
+{% endblock stylesheet %}
+
+{% block title %}LoR Match Index{% endblock title %}
+
+{% block content %}
+<h2>Match Index</h2>
+<div class="container">
+{% for matchup in matchups %}
+    <div class="row">
+        <div class="col-1">
+
+        </div>
+        <div class="col-5">
+            <p>{{matchup.0.account.game_name}}</p> 
+        </div>
+        <div class="col-1">
+            <p>vs.</p>
+        </div>
+        <div class="col-5">
+            <p>{{matchup.1.account.game_name}}</p>
+        </div>
+    </div>
+{% endfor %}
+</div>
+{% endblock content %}
